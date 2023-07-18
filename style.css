@@ -1,0 +1,377 @@
+/* font  */
+
+  @import url('https://fonts.googleapis.com/css2?family=Covered+By+Your+Grace&family=Oleo+Script&family=Titillium+Web:wght@300;400;700&family=Work+Sans:wght@500;600;700;800;900&display=swap');
+
+
+  /* primary css start  */
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Work Sans;
+}
+
+.primary-color{
+    color: #FF42A5;
+}
+
+ul , li, a{
+    list-style: none;
+    text-decoration: none;
+}
+
+.btn_primary{
+    color: #FFF;
+font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
+border-radius: 48px;
+background: #F144AE;
+padding: 21px 40px;
+border: none;
+}
+
+.btn_secondary{
+    color: #FFF;
+font-size: 20px;
+font-weight: 600;
+text-transform: uppercase;
+border-radius: 48px;
+background: #4EC5F7;
+padding: 21px 40px;
+border: none;
+}
+
+
+.section{
+    padding: 0px 240px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+img{
+    width: 100%;
+}
+/* primary css end  */
+
+
+nav{
+    height: 100px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: #fff;
+    padding: 0px 240px;
+    box-shadow: 0px 4px 30px 0px rgba(0, 0, 0, 0.05);
+}
+
+.logo{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.logo img{
+    width: 5.313rem;
+    
+}
+
+.logo p{
+    font-size: 2.813rem;
+    font-weight: 700;
+}
+
+
+.nav-right-part, .follow_nav, .follow_img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+}
+
+.nav-right-part ul{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 20px;
+    font-size: 1.125rem;
+font-weight: 500;
+}
+
+.follow_nav{
+    border-radius: 8px;
+background: rgba(11, 2, 35, 0.10);
+padding: 1.125rem 1.5rem ;
+font-size: 1.125rem;
+font-weight: 500;
+
+}
+
+
+/* end  */
+
+/* hero css start  */
+.hero{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: calc(100vh - 100px);
+}
+
+.hero_left_box{
+    background-image: url("./images/Group\ 14.png");
+    background-position: center;
+    background-size: cover;
+    background-repeat: no-repeat, repeat;
+    width: calc(50% - 240px);
+    display: flex;
+    flex-direction: column;
+    padding-left: 240px;
+    height: 100%;
+    justify-content: center;
+
+}
+.hero_right_box{
+    padding-right: 240px;
+}
+
+.hero_left_box ul li{
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    color: #534C64;
+font-family: Work Sans;
+font-size: 20px;
+font-weight: 500;
+margin-top: 10px;
+}
+
+.hero_top_txt{
+    color: #0B0223;
+font-size: 48px;
+font-weight: 600;
+text-transform: uppercase;
+}
+
+.hero_mid_txt{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+font-size: 95px;
+font-weight: 800;
+text-transform: uppercase;
+margin-bottom: 10px;
+}
+
+.btn_part{
+    margin-top: 30px;
+    gap: 30px;
+    display: flex;
+}
+.btn_part button{
+    cursor: pointer;
+}
+
+/* her section end  */
+
+/* we gamer section start  */
+.we_gamer{
+    background: linear-gradient(90deg, rgba(255, 66, 165, 0.03) 0%, rgba(255, 66, 165, 0.03) 100%);
+}
+
+.we_gamer_left{
+    width: 60%;
+    flex: 0.6;
+}
+
+.we_gamer_right .we_gamer_top{
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+background-clip: text;
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+text-align: right;
+font-size: 48px;
+font-weight: 700;
+}
+
+.we_gamer_desc{
+    color: #534C64;
+text-align: right;
+font-family: Work Sans;
+font-size: 18px;
+font-style: normal;
+font-weight: 400;
+line-height: 30px; /* 166.667% */
+margin: 10px 0px 20px 0px;
+}
+
+.we_gamer_purpuse{
+    color: #534C64;
+text-align: right;
+font-size: 24px;
+font-weight: 500;
+line-height: 45px; 
+margin-top: 10px;
+}
+
+.we_gamer_quta{
+    color: #534C64;
+font-size: 32px;
+font-weight: 700;
+line-height: 45px;
+text-align: right;
+}
+
+.we_gamer_right{
+    display: flex;
+    align-items: end;
+    justify-content: end;
+    flex-direction: column;
+    flex: 0.4;
+}
+/* responsive css start  */
+
+
+/* for mobile  */
+@media screen and (max-width: 425px) {
+    .nav, .nav-right-part{
+        flex-direction: column;
+        box-shadow: none;
+
+    }
+    .nav{
+        height: auto;
+    padding: 15px 20px;
+        
+    }
+    .section{
+        height: auto;
+        padding: 15px 60px;
+        flex-direction:  column;
+        
+    }
+    .nav-right-part ul{
+        flex-direction: column;
+    }
+
+    .logo{
+        margin-bottom: 10px;
+    }
+    .hero_left_box{
+        padding: 15px 20px;
+    }
+    .hero_right_box{
+         padding: 15px 20px;
+    }
+    .hero{
+        flex-direction: column-reverse;    }
+    .hero_left_box{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .we_gamer{
+        text-align: center;
+    }
+    .we_gamer_right{
+        align-items: center;
+        justify-content: center;
+    }
+    .we_gamer_right .we_gamer_top{
+ 
+    text-align: center;
+    }
+    
+    .we_gamer_desc{
+        text-align: center;
+    }
+    
+    .we_gamer_purpuse{
+        text-align: center;
+    }
+    
+    .we_gamer_quta{
+        text-align: center;
+    }
+}
+
+
+/* for mobile part end  */
+
+
+/* for tablet  */
+@media screen and (min-width: 425px) and (max-width: 768px){
+    .nav, .nav-right-part{
+        flex-direction: column;
+        box-shadow: none;
+
+    }
+    .nav, .section, .hero{
+        height: auto;
+    padding: 15px 30px;
+        
+    }
+    .section{
+        padding: 15px 70px;
+        flex-direction:  column;
+    }
+    .nav-right-part ul{
+        flex-direction: column;
+    }
+
+    .logo{
+        margin-bottom: 10px;
+    }
+    .hero_left_box{
+        padding: 30px 30px;
+    }
+    .hero_right_box{
+         padding: 30px 30px;
+    }
+    .hero{
+        flex-direction: column-reverse;    }
+    .hero_left_box{
+        justify-content: center;
+        align-items: center;
+        width: 100%;
+    }
+    .we_gamer_right{
+        align-items: center;
+        justify-content: center;
+    }
+    .we_gamer_desc{
+        text-align: center;
+        }
+        
+        .we_gamer_purpuse{
+            text-align: center;
+        }
+        
+        .we_gamer_quta{
+        text-align: center;
+        }
+}
+
+/* for tablet  end*/
+
+
+/* for medium divice  */
+
+@media screen and (min-width: 768px) and (max-width: 1024px){
+    .nav{
+        height: auto;
+    padding: 15px 80px;
+        
+    }
+    .hero_left_box{
+        padding: 30px 80px;
+        
+    }
+    .hero_right_box{
+        padding: 30px 80px;
+    }
+}
+
+/* for medium device end  */
