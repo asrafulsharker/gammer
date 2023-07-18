@@ -1,0 +1,48 @@
+/* Reset some default styles for the example */
+body, html {
+    margin: 0;
+    padding: 0;
+  }
+  
+  /* Container to position the image and overlay */
+  .image-container {
+    position: relative;
+    width: 300px; /* Adjust this to your desired image width */
+    height: 200px; /* Adjust this to your desired image height */
+    overflow: hidden; /* Hide the overlay content when not hovering */
+  }
+  
+  /* The actual image */
+  .image-container img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover; /* Maintain aspect ratio and cover the container */
+  }
+  
+  /* The overlay element */
+  .overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.6); /* Adjust the overlay background color and opacity */
+    opacity: 0; /* Start with the overlay hidden */
+    transition: opacity 0.3s ease; /* Add a smooth transition effect */
+  }
+  
+  /* The overlay content */
+  .overlay-content {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); /* Center the content */
+    text-align: center;
+    color: #fff; /* Set the text color */
+  }
+  
+  /* Show the overlay when hovering on the container */
+  .image-container:hover .overlay {
+    opacity: 1;
+  }
+  
