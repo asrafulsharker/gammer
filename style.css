@@ -660,6 +660,22 @@ font-weight: 500;
         margin-top: 46%;
         margin-left: -77%;
     }
+    .large_img {
+        width: 100%;
+    }
+    .play_instant_right .large_img {
+        width: 100%;
+        position: relative;
+    }
+    .small_img {
+        width: 25%;
+        margin-top: 144px;
+        margin-left: -75px;
+    }
+    .card_description {
+
+        text-align: center;
+    }
 }
 
 
@@ -745,6 +761,28 @@ font-weight: 500;
             width: 25%;
             margin-top: 46%;
             margin-left: -77%;
+        }
+        .large_img {
+            width: 100%;
+        }
+        .card_description {
+
+            text-align: center;
+        }
+        .play_instant_right .small_img {
+            width: 25%;
+            margin-top: 59%;
+            margin-left: -90%;
+        }
+        .small_img {
+            width: 25%;
+            position: absolute;
+            margin-top: 385px;
+            margin-left: -145px;
+        }
+        .play_games_title {
+            text-align: center;
+            margin-top: 50px;
         }
 }
 
