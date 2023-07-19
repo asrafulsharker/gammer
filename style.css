@@ -726,6 +726,27 @@ font-weight: 500;
     .card_description{
         width: auto;
     }
+    .play_games_title{
+        text-align: center;
+    }
+    .hero{
+        padding: 0px 20px;
+    }
+    .hero_mid_txt {
+        font-size: 75px;
+    }
+    .hero_top_txt{
+        text-align: center;
+    }
+    .hero_top_txt {
+        font-size: 35px;
+    }
+    button{
+        font-size: 17px;
+    }
+    .we_gamer{
+        background-color: #fff !important;
+    }
 }
 
 
@@ -860,6 +881,9 @@ font-weight: 500;
                 position: absolute;
                 margin-top: 170px;
                 margin-left: -75px;
+            }
+            .we_gamer{
+                background-color: #fff !important;
             }
 }
 
