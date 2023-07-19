@@ -525,7 +525,7 @@ border: 1px solid #fff;
     justify-content: center;
     flex-direction: column;
     background: #0B0223;
-    padding: 80px 0px;
+    padding: 80px 30px;
 }
 
 .footer_logo{
@@ -800,6 +800,10 @@ font-weight: 500;
         .condition {
             flex-wrap: wrap;
         }
+        .we_gamer_right .we_gamer_top{
+ 
+            text-align: center;
+            }
 }
 
 /* for tablet  end*/
