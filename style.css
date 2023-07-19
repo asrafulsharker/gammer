@@ -547,6 +547,8 @@ margin-left: 5px;
     display: flex;
     flex-wrap: wrap;
     margin: 40px 0px;
+    align-items: center;
+    justify-content: center;
 }
 .footer_link a{
     color: #fff;
@@ -558,12 +560,18 @@ margin-left: 5px;
     display: flex;
     gap: 50px;
     margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .condition{
     display: flex;
     gap: 40px;
     margin-bottom: 40px;
+    align-items: center;
+    justify-content: center;
+    flex-wrap: wrap;
 }
 
 .condition a{
@@ -571,6 +579,8 @@ margin-left: 5px;
 text-align: center;
 font-size: 16px;
 font-weight: 500;
+align-items: center;
+justify-content: center;
 }
 
 .copyright{
@@ -675,6 +685,9 @@ font-weight: 500;
     .card_description {
 
         text-align: center;
+    }
+    .condition {
+        flex-wrap: wrap;
     }
 }
 
@@ -783,6 +796,9 @@ font-weight: 500;
         .play_games_title {
             text-align: center;
             margin-top: 50px;
+        }
+        .condition {
+            flex-wrap: wrap;
         }
 }
 
