@@ -591,6 +591,7 @@ font-weight: 500;
 }
 /* footer section end  */
 /* for mobile  */
+
 @media screen and (max-width: 425px) {
     .nav, .nav-right-part{
         flex-direction: column;
@@ -674,7 +675,7 @@ font-weight: 500;
         width: 100%;
     }
     .play_instant_right .large_img {
-        width: 100%;
+        width: 250px;
         position: relative;
     }
     .small_img {
@@ -688,6 +689,42 @@ font-weight: 500;
     }
     .condition {
         flex-wrap: wrap;
+    }
+    .play_games_title{
+        text-align: center;
+    }
+    .career_description{
+        text-align: center;
+    }
+    .section_title, .header_title {
+        text-align: center;
+    }
+    .large_img {
+        width: 250px;
+    }
+    .play_instant_right .small_img {
+        width: 25%;
+        margin-top: 188px;
+        margin-left: -275px;
+    }
+    .small_img {
+        width: 25%;
+        margin-top: 155px;
+        margin-left: -60px;
+    }
+    .play_games_right{
+        margin-top: 20px;
+    }
+    .card_main img {
+        width: 300px;
+        height: 350px;
+    }
+    .overlay {
+        width: 300px;
+        height: 350px;
+    }
+    .card_description{
+        width: auto;
     }
 }
 
@@ -803,6 +840,26 @@ font-weight: 500;
         .we_gamer_right .we_gamer_top{
  
             text-align: center;
+            }
+            .play_games_title{
+                text-align: center;
+            }
+            .career_description{
+                text-align: center;
+            }
+            .section_title, .header_title {
+                text-align: center;
+            }
+            .play_instant_right .small_img {
+                width: 25%;
+                margin-top: 195px;
+                margin-left: -320px;
+            }
+            .small_img {
+                width: 25%;
+                position: absolute;
+                margin-top: 170px;
+                margin-left: -75px;
             }
 }
 
