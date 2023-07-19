@@ -641,6 +641,25 @@ font-weight: 500;
     .we_gamer_quta{
         text-align: center;
     }
+    .online_game_title{
+        text-align: center;
+    }
+    .card_container{
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .play_instant_title{
+        text-align: center;
+    }
+    .section_description{
+        text-align: center;
+    }
+    .play_instant_right .small_img {
+        width: 25%;
+        margin-top: 46%;
+        margin-left: -77%;
+    }
 }
 
 
@@ -697,6 +716,35 @@ font-weight: 500;
         
         .we_gamer_quta{
         text-align: center;
+        }
+        .online_game_title{
+            text-align: center;
+        }
+        .card_container{
+            flex-wrap: wrap;
+            align-items: center;
+            justify-content: center;
+        }
+        .play_instant_title{
+            text-align: center;
+        }
+        .section_description{
+            text-align: center;
+            margin-bottom: 10px;
+        }
+        .play_instant_right .large_img {
+            width: 100%;
+       
+        }
+        .play_instant_right .small_img {
+            width: 25%;
+            margin-top: 431px;
+            margin-left: -641px;
+        }
+        .play_instant_right .small_img {
+            width: 25%;
+            margin-top: 46%;
+            margin-left: -77%;
         }
 }
 
