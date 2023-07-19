@@ -605,7 +605,7 @@ font-weight: 500;
     }
     .section{
         height: auto;
-        padding: 15px 60px;
+        padding: 30px 60px;
         flex-direction:  column;
         
     }
@@ -651,6 +651,8 @@ font-weight: 500;
     
     .we_gamer_quta{
         text-align: center;
+        padding-bottom: 35px;
+
     }
     .online_game_title{
         text-align: center;
@@ -766,7 +768,7 @@ font-weight: 500;
         
     }
     .section{
-        padding: 15px 70px;
+        padding: 30px 70px;
         flex-direction:  column;
     }
     .nav-right-part ul{
@@ -803,6 +805,8 @@ font-weight: 500;
         
         .we_gamer_quta{
         text-align: center;
+        padding-bottom: 35px;
+
         }
         .online_game_title{
             text-align: center;
